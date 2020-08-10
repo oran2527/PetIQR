@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'petiqrContainer.apps.PetiqrcontainerConfig',
     'rest_framework',
     'corsheaders',
+    'frontend'
 ]
 
 MIDDLEWARE = [
