@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'petiqrContainer.apps.PetiqrcontainerConfig',
     'rest_framework',
-    'corsheaders',
-    'frontend'
+    'corsheaders',    
 ]
 
 MIDDLEWARE = [

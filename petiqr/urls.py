@@ -25,6 +25,5 @@ urlpatterns = [
     path(r'petiqr/countries', views.CountriesAPIView.as_view(), name='countries-list'),
     path(r'petiqr/states', views.StatesAPIView.as_view(), name='states-list'),
     path(r'petiqr/cities', views.CitiesAPIView.as_view(), name='cities-list'),
-    path(r'petiqr/owners', views.OwnersAPIView.as_view(), name='owners-list'),
-    path('', include('frontend.urls'))
+    path(r'petiqr/owners', views.OwnersAPIView.as_view(), name='owners-list'),    
 ]
